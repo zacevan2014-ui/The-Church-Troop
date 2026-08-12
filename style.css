@@ -10,6 +10,10 @@
     --font-heading: 'Impact', sans-serif;
     --font-body: 'Plus Jakarta Sans', 'Rubik Spray Paint', cursive;
 }
+body {
+    background-color: var(--background-color); /* or var(--bg) */
+    color: var(--text-main);
+}
 .logo-container {
     background-color: var(--card-bg); /* Uses your card background color */
     border: 2px solid var(--border);  /* Adds your green border */
