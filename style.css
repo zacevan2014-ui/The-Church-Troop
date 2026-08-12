@@ -1,1 +1,12 @@
+:root {
+    --bg: #000000
+    --card-bg: rgba(20, 24, 18, 0.8)
+    --border: rgba(90, 124, 70, 0.8)
+    --primary: #052742
+    --primary-hover: #000000
+    --accent: #162414
+    --text-main: #ffffff
+    --font-heading: 'Bold', ;
+    --font-body: 'Plus Jakarta Sans', rubrik-spray-paint;
+}
 
