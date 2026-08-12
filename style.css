@@ -1,6 +1,6 @@
 :root {
     --bg: #000000;
-    --card-bg: rgba(20, 24, 18, 0.8);
+    --card-bg: #000000
     --border: rgba(90, 124, 70, 0.8);
     --primary: #052742;
     --primary-hover: #000000;
@@ -15,3 +15,12 @@
     text-align: center;              /* Centers both image and caption */
     padding: 20px;                   /* Adds space inside the box */
 }
+h1 {
+    color: white;
+    font-family: 'Rubik Spray Paint', cursive;
+}  
+h4 {
+    color: white;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+
