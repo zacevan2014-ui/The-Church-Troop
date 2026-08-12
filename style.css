@@ -1,8 +1,8 @@
 :root {
     --bg: #000000;
-    --card-bg: #000000; /* Added ; */
-    --background-color: #000000; /* Added ; */
-    --border: #000000; /* Added ; */
+    --card-bg: #000000;
+    --background-color: #000000;
+    --border: #000000;
     --primary: #052742;
     --primary-hover: #000000;
     --accent: #162414;
@@ -10,22 +10,23 @@
     --font-heading: 'Impact', sans-serif;
     --font-body: 'Plus Jakarta Sans', 'Rubik Spray Paint', cursive;
 }
-body {
-    background-color: var(--background-color); /* or var(--bg) */
-    color: var(--text-main);
-}
-.logo-container {
-    background-color: var(--card-bg); /* Uses your card background color */
-    border: 2px solid var(--border);  /* Adds your green border */
-    text-align: center;              /* Centers both image and caption */
-    padding: 20px;                   /* Adds space inside the box */
-}
-h1 {
-    color: white;
-    font-family: 'Rubik Spray Paint', cursive;
-}  
-h4 {
-    color: white;
-    font-family: 'Rubik Spray Paint', cursive;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--background-color, #000000);
+    color: var(--text-main, #ffffff);
 }
 
+.logo-container {
+    background-color: var(--card-bg);
+    border: 2px solid var(--border);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h4 {
+    color: #ffffff;
+    font-family: 'Rubik Spray Paint', cursive;
+}
