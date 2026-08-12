@@ -1,8 +1,8 @@
 :root {
     --bg: #000000;
-    --card-bg: #000000
-    --background-color: #000000
-    --border: #000000
+    --card-bg: #000000; /* Added ; */
+    --background-color: #000000; /* Added ; */
+    --border: #000000; /* Added ; */
     --primary: #052742;
     --primary-hover: #000000;
     --accent: #162414;
